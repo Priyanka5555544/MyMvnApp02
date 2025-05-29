@@ -27,7 +27,7 @@ pipeline{
 	 }
 }
 post{
-	sucess{
+	success{
 		echo 'build and deploy sucess'
 		}
 	failure{
