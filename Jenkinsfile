@@ -20,7 +20,7 @@ pipeline{
 	       sh 'mvn test'
 	       }
 	 }
-	 stage('Aplication run'){
+	 stage('Run Aplication'){
 	     steps{
 	         sh 'java -jar target/MyMvnApp02-1.0-SNAPSHOT.jar'
 	         }
