@@ -30,7 +30,7 @@ post{
 	sucess{
 		echo 'build and deploy sucess'
 		}
-	fail{
+	failure{
 	echo 'build fail'
 	}
 	}
